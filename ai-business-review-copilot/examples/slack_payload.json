@@ -1,0 +1,29 @@
+{
+  "text": "WBR 21 Sep 2026",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📊 WBR: week of 21 Sep 2026"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*GMV* ₹65.32 Cr (-1.0%)  ·  *Orders* 1,617,493 (+0.9%)  ·  *AOV* ₹404 (-1.9%)"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Top issues*\n🔴 *Mumbai*: AOV fell to ₹416 (-8.9%) → Category\n🔴 *Bengaluru*: Promo % of GMV rose to 13.8% (+55.6%) → Growth\n🔴 *Kolkata*: Cancellation rate rose to 9.2% (+135.0%) → Ops"
+      }
+    }
+  ]
+}

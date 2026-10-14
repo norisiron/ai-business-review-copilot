@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pytest>=8.0
+# Optional: LLM narrator (pick one provider)
+# langchain-core>=0.3
+# langchain-openai>=0.2
+# langchain-anthropic>=0.3

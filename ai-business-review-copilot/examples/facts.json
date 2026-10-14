@@ -1,0 +1,145 @@
+{
+  "week_start": "21 Sep 2026",
+  "headline": {
+    "gmv": {
+      "display": "₹65.32 Cr",
+      "wow_display": "-1.0%",
+      "vs_4w_display": "-0.4%"
+    },
+    "orders": {
+      "display": "1,617,493",
+      "wow_display": "+0.9%",
+      "vs_4w_display": "+1.9%"
+    },
+    "aov": {
+      "display": "₹404",
+      "wow_display": "-1.9%",
+      "vs_4w_display": "-2.2%"
+    },
+    "cancel_rate": {
+      "display": "4.4%",
+      "wow_display": "+10.2%",
+      "vs_4w_display": "+10.5%"
+    },
+    "promo_pct_gmv": {
+      "display": "10.4%",
+      "wow_display": "+11.3%",
+      "vs_4w_display": "+12.6%"
+    },
+    "new_users": {
+      "display": "101,945",
+      "wow_display": "+0.2%",
+      "vs_4w_display": "+2.0%"
+    }
+  },
+  "issues": [
+    {
+      "city": "Mumbai",
+      "metric": "aov",
+      "metric_label": "AOV",
+      "severity": "high",
+      "robust_z": -14.9,
+      "direction_word": "fell",
+      "current_display": "₹416",
+      "baseline_display": "₹457",
+      "change_display": "-8.9%",
+      "driver": "Orders moved +1.8% WoW, so this is a basket-size issue, not demand. AOV effect on GMV: -₹1.45 Cr.",
+      "action": "Category: audit menu pricing, combo availability and top-merchant basket mix",
+      "impact_display": "-₹1.45 Cr / week"
+    },
+    {
+      "city": "Bengaluru",
+      "metric": "promo_pct_gmv",
+      "metric_label": "Promo % of GMV",
+      "severity": "high",
+      "robust_z": 38.8,
+      "direction_word": "rose",
+      "current_display": "13.8%",
+      "baseline_display": "8.8%",
+      "change_display": "+55.6%",
+      "driver": "Orders only +3.7% WoW against much higher spend, so the incremental orders are expensive.",
+      "action": "Growth: set a promo-as-%-of-GMV guardrail and review the campaign calendar",
+      "impact_display": "-₹77.0 L / week"
+    },
+    {
+      "city": "Kolkata",
+      "metric": "cancel_rate",
+      "metric_label": "Cancellation rate",
+      "severity": "high",
+      "robust_z": 23.2,
+      "direction_word": "rose",
+      "current_display": "9.2%",
+      "baseline_display": "3.9%",
+      "change_display": "+135.0%",
+      "driver": "Delivered orders -3.7% WoW, GMV impact -₹26.1 L. Moving together with delivery time (+19.8%), which points to a supply-side ops incident.",
+      "action": "Ops: check rider supply and restaurant acceptance by zone, daily war-room until back to baseline",
+      "impact_display": "-₹26.1 L / week"
+    },
+    {
+      "city": "Kolkata",
+      "metric": "orders",
+      "metric_label": "Orders",
+      "severity": "medium",
+      "robust_z": -4.0,
+      "direction_word": "fell",
+      "current_display": "129,678",
+      "baseline_display": "134,820",
+      "change_display": "-3.8%",
+      "driver": "GMV change -₹26.1 L (orders -₹17.3 L, AOV -₹8.8 L).",
+      "action": "Growth + Ops: split the decline by new vs repeat users and by zone",
+      "impact_display": "-₹26.1 L / week"
+    },
+    {
+      "city": "Kolkata",
+      "metric": "gmv",
+      "metric_label": "GMV",
+      "severity": "medium",
+      "robust_z": -3.6,
+      "direction_word": "fell",
+      "current_display": "₹4.48 Cr",
+      "baseline_display": "₹4.73 Cr",
+      "change_display": "-5.4%",
+      "driver": "GMV change -₹26.1 L (orders -₹17.3 L, AOV -₹8.8 L).",
+      "action": "City head: run the GMV bridge by zone to isolate the driver",
+      "impact_display": "-₹26.1 L / week"
+    }
+  ],
+  "gmv_bridge": [
+    {
+      "city": "Mumbai",
+      "gmv_change_display": "-₹1.18 Cr",
+      "orders_effect_display": "+₹27.7 L",
+      "aov_effect_display": "-₹1.45 Cr"
+    },
+    {
+      "city": "Kolkata",
+      "gmv_change_display": "-₹26.1 L",
+      "orders_effect_display": "-₹17.3 L",
+      "aov_effect_display": "-₹8.8 L"
+    },
+    {
+      "city": "Hyderabad",
+      "gmv_change_display": "+₹45,308",
+      "orders_effect_display": "-₹11.3 L",
+      "aov_effect_display": "+₹11.8 L"
+    },
+    {
+      "city": "Pune",
+      "gmv_change_display": "+₹2.1 L",
+      "orders_effect_display": "-₹2.7 L",
+      "aov_effect_display": "+₹4.7 L"
+    },
+    {
+      "city": "Delhi NCR",
+      "gmv_change_display": "+₹22.3 L",
+      "orders_effect_display": "+₹19.1 L",
+      "aov_effect_display": "+₹3.2 L"
+    },
+    {
+      "city": "Bengaluru",
+      "gmv_change_display": "+₹52.1 L",
+      "orders_effect_display": "+₹51.5 L",
+      "aov_effect_display": "+₹61,336"
+    }
+  ]
+}
